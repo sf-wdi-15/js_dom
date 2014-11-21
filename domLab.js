@@ -29,3 +29,7 @@ document.getElementById("countMe").onclick= function(event){
 };
 
 //Attach a click listener to #greetingDiv and grab the #nameField from the input tag. Use the #nameFieldto display Hello, with the entered name.
+document.getElementById("greetingDiv").onclick= function(event) {
+  var name = document.getElementById("nameField").value;
+    this.innerHTML = "Hello " + name;
+  };
