@@ -2,7 +2,7 @@ var click =
 document.getElementById('colorDiv');
 
 click.addEventListener('click',
-function () { colorDiv.style.backgroundColor = "blue"; }, false);
+function () { colorDiv.style.backgroundColor = "blue"; });
 
 var toggle = document.getElementById('toggleMe');
 
